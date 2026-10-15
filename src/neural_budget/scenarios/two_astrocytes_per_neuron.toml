@@ -1,0 +1,10 @@
+[scenario]
+name = "Astrocyte-to-neuron ratio = 2"
+description = "Uses the astrocytes-per-neuron parameter for the glial resting cost; in the spreadsheet the same change has no effect because cell M46 multiplies by a typed 1.0"
+source = "this analysis; Howarth et al. 2012 spreadsheet cells B35 and M46"
+
+[options]
+glia_scaling = "parameter"
+
+[changes]
+astrocytes_per_neuron = 2.0

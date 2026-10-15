@@ -1,0 +1,7 @@
+[scenario]
+name = "active running, 7.8 Hz"
+description = "Mean firing rate measured in rat barrel cortex while running in a textured environment"
+source = "Vijayan et al. 2010, doi:10.1152/jn.00474.2009, as cited by Howarth et al. 2012"
+
+[changes]
+firing_rate = 7.8

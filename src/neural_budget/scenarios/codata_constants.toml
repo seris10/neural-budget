@@ -1,0 +1,10 @@
+[scenario]
+name = "CODATA 2018 constants"
+description = "Replaces the spreadsheet's rounded Faraday constant (96495), elementary charge (1.6e-19) and Avogadro constants (6.022e23 and the typed 6.02e23) with exact SI values"
+source = "CODATA 2018 recommended values (exact SI definitions of e and N_A)"
+
+[changes]
+faraday = 96485.33212
+elementary_charge = 1.602176634e-19
+avogadro = 6.02214076e23
+avogadro_in_unit_conversion = 6.02214076e23

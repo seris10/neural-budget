@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-budget"
+version = "0.1.0"
+description = "Reproduce the Howarth, Gleeson and Attwell (2012) cortical energy budget and probe its assumptions"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "BSD-3-Clause"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.1",
+    "matplotlib>=3.8",
+    "pint>=0.23",
+]
+
+[project.optional-dependencies]
+extract = ["xlrd>=2.0"]
+test = ["pytest>=8", "scipy>=1.11"]
+
+[project.scripts]
+neural-budget = "neural_budget.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+neural_budget = ["reference_data/*.json", "scenarios/*.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "network: needs internet access",
+    "extract: needs the pinned spreadsheet in data/raw and xlrd",
+]
+addopts = "-m 'not network'"

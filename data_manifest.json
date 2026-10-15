@@ -1,0 +1,48 @@
+{
+  "schema": "portfolio.data_manifest/1",
+  "project": "neural_budget",
+  "sources": [
+    {
+      "id": "howarth2012_supplementary_spreadsheet",
+      "description": "Supplementary spreadsheet (jcbfm201235x1.xls) of Howarth, Gleeson and Attwell (2012); this project uses the sheet 'Cerebral cortex - calculations'",
+      "publisher": "Journal of Cerebral Blood Flow and Metabolism / PubMed Central (PMC3390818)",
+      "paper_doi": "10.1038/jcbfm.2012.35",
+      "url_requested": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3390818/bin/jcbfm201235x1.xls",
+      "url_retrieved": "https://web.archive.org/web/20230426193037id_/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3390818/bin/jcbfm201235x1.xls",
+      "retrieval_note": "PMC served a browser proof-of-work page instead of the file and Europe PMC reports the article is not in the open-access subset; the Internet Archive capture of the PMC file (2023-04-26) was used. Its OLE metadata names the author as Clare Howarth, last saved 2012-02-07.",
+      "retrieved": "2026-10-13",
+      "local_path": "data/raw/howarth2012_supplementary_spreadsheet.xls",
+      "bytes": 1464832,
+      "sha256": "22bba3b14ef2d807623ccd41bebb58fe76c9b884a986c023910048a53a5c4eea",
+      "terms": "The spreadsheet's 'Help & Use' sheet: it may be used freely to investigate the effects of changing the parameters or adapted to other cell types or regions; the authors ask that the paper be acknowledged in published results. The .xls is not redistributed in the package; extracted values and formulas are, with this attribution.",
+      "citation": "Howarth C, Gleeson P, Attwell D (2012). Updated energy budgets for neural computation in the neocortex and cerebellum. J Cereb Blood Flow Metab 32(7):1222-1232. doi:10.1038/jcbfm.2012.35"
+    },
+    {
+      "id": "howarth2012_paper_text",
+      "description": "Full text of the paper, used for the numbers it prints (signaling 20.4, housekeeping 6.79, total 27.2 umol ATP/g/min; process percentages; overlap-factor comparison; housekeeping range; sleep versus running)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3390818/",
+      "retrieved": "2026-10-13"
+    }
+  ],
+  "selection": "One declared reference case: the cerebral cortex sheet as distributed. The cerebellar sheets are not used.",
+  "transformations": [
+    {
+      "output": "src/neural_budget/reference_data/howarth2012_cortex.json",
+      "sha256": "1f8f2459339190115965ff5e7b7860150a85855deb0fa66f2ad996e7dd8049aa",
+      "command": "python tools/extract_reference.py data/raw/howarth2012_supplementary_spreadsheet.xls src/neural_budget/reference_data/howarth2012_cortex.json",
+      "steps": [
+        "refuse a file whose sha256 differs from the pinned value",
+        "parameter table: rows with a number in column B (label, value, cited reference, note)",
+        "formulas: every FORMULA record of the sheet, shared formulas resolved, decompiled with xlrd's formula decompiler, with the cell's cached value",
+        "numbers typed in the calculation area (columns E onward) that are not formulas",
+        "text labels of the calculation area"
+      ],
+      "check": "tests/reference/test_reproduction.py::test_packaged_extract_equals_a_fresh_extract re-extracts and compares"
+    }
+  ],
+  "authored_inputs": {
+    "src/neural_budget/reference_data/scenario_ranges.json": "0290d131630a483db01108e29350569f98fbeba35cb2574b45a1b7868389580f",
+    "src/neural_budget/scenarios/*.toml": "seven scenario files, each with its source"
+  },
+  "synthetic_data": "none"
+}

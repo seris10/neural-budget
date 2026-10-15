@@ -1,0 +1,7 @@
+[scenario]
+name = "vesicle fusion and endocytosis ATP counted once"
+description = "The spreadsheet's presynaptic formula (cell K24) doubles the fusion and endocytosis cost per vesicle without explanation; this counts it once"
+source = "this analysis; Howarth et al. 2012 spreadsheet cell K24"
+
+[changes]
+presynaptic_vesicle_cost_multiplier = 1.0

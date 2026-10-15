@@ -1,0 +1,1264 @@
+{
+ "source": {
+  "title": "Supplementary spreadsheet to Howarth, Gleeson and Attwell (2012), Updated energy budgets for neural computation in the neocortex and cerebellum, J Cereb Blood Flow Metab 32:1222-1232",
+  "doi": "10.1038/jcbfm.2012.35",
+  "file": "jcbfm201235x1.xls",
+  "retrieved_from": "https://web.archive.org/web/20230426193037id_/http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3390818/bin/jcbfm201235x1.xls",
+  "sha256": "22bba3b14ef2d807623ccd41bebb58fe76c9b884a986c023910048a53a5c4eea",
+  "sheet": "Cerebral cortex - calculations",
+  "terms": "Spreadsheet text: may be used freely to investigate the effects of changing the parameters chosen, or adapted; the authors ask that the paper be acknowledged when results are published."
+ },
+ "parameters": [
+  {
+   "cell": "B2",
+   "label": "Glutamate released per vesicle (molecules)",
+   "value": 4000.0,
+   "reference": "Riveros et al., 1986",
+   "note": ""
+  },
+  {
+   "cell": "B3",
+   "label": "Q10 for reaction rate",
+   "value": 3.0,
+   "reference": "Attwell & Laughin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B4",
+   "label": "Q10 for ion channel conductance",
+   "value": 1.3,
+   "reference": "Attwell & Laughin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B5",
+   "label": "Cost of ion reversal following glutamate uptake (ATP/glu)",
+   "value": 1.33333333,
+   "reference": "Attwell & Laughin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B6",
+   "label": "Metabolic processing of glutamate (ATP/glutamate)",
+   "value": 1.0,
+   "reference": "Attwell & Laughin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B7",
+   "label": "Packaging glu into vesicles (ATP/glutamate)",
+   "value": 0.333,
+   "reference": "Attwell & Laughin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B8",
+   "label": "AMPAR Na+ entry per vesicle (ions)",
+   "value": 200000.0,
+   "reference": "Attwell & Laughin, 2001",
+   "note": "Calculated from number of channels, channel open time and conductance"
+  },
+  {
+   "cell": "B9",
+   "label": "Firing rate (Hz)",
+   "value": 4.0,
+   "reference": "Attwell & Laughin, 2001",
+   "note": "Upper value of range (Schoenbaum et al., 1999, Fanselow & Nicolelis, 1999)"
+  },
+  {
+   "cell": "B10",
+   "label": "Ratio of charge entry Qnmda/ampa",
+   "value": 1.0,
+   "reference": "Attwell & Laughin, 2001",
+   "note": "Average of Silver et al., 1992, Spruston et al., 1995 and Markram et al., 1997"
+  },
+  {
+   "cell": "B11",
+   "label": "ATP usage on G-protein signalling per vesicle",
+   "value": 3000.0,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B12",
+   "label": "Ca2+ influx per vesicle released (ions)",
+   "value": 12000.0,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B13",
+   "label": "ATP for membrane fusion/vesicle",
+   "value": 10.5,
+   "reference": "Siegel, 1993",
+   "note": ""
+  },
+  {
+   "cell": "B14",
+   "label": "ATP for control of endocytosis/vesicle",
+   "value": 400.0,
+   "reference": "Marsh & McMahon, 1999",
+   "note": "Ref gives molecules. Attwell & Laughlin (2001) calculate 400 ATP for phosphorylation"
+  },
+  {
+   "cell": "B15",
+   "label": "Action Potential Voltage change (V)",
+   "value": 0.1,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B16",
+   "label": "Axon length (m)",
+   "value": 0.04,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  },
+  {
+   "cell": "B17",
+   "label": "Axon diameter (m)",
+   "value": 3e-07,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  },
+  {
+   "cell": "B18",
+   "label": "Capacitance (F/m2)",
+   "value": 0.009999999999999998,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B19",
+   "label": "Overlap factor for Na+ current",
+   "value": 1.24,
+   "reference": "Carter & Bean, 2009",
+   "note": "Measured for cortical pyramidal neurons"
+  },
+  {
+   "cell": "B20",
+   "label": "Electron charge (C)",
+   "value": 1.6e-19,
+   "reference": "",
+   "note": ""
+  },
+  {
+   "cell": "B21",
+   "label": "Soma diameter (m)",
+   "value": 2.5e-05,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B22",
+   "label": "Dendrite diameter (m)",
+   "value": 9e-07,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  },
+  {
+   "cell": "B23",
+   "label": "Dendrite length (m)",
+   "value": 0.0044444444444444444,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  },
+  {
+   "cell": "B24",
+   "label": "Voltage change (dendrites ) (V)",
+   "value": 0.05,
+   "reference": "Vetter et al., 2001",
+   "note": "Simulations by A. Roth and M. Hausser"
+  },
+  {
+   "cell": "B25",
+   "label": "Neuron input resistance (\u03a9)",
+   "value": 200000000.0,
+   "reference": "Hutcheon et al., 1996",
+   "note": ""
+  },
+  {
+   "cell": "B26",
+   "label": "Neuron resting potential (V)",
+   "value": -0.07,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B27",
+   "label": "Nernst potential for K+, Vk (V)",
+   "value": -0.1,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B28",
+   "label": "Nernst potential for Na+, VNa (V)",
+   "value": 0.05,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B29",
+   "label": "Faraday (C/mole)",
+   "value": 96495.0,
+   "reference": "",
+   "note": ""
+  },
+  {
+   "cell": "B30",
+   "label": "Avogadro's number, NA",
+   "value": 6.022e+23,
+   "reference": "",
+   "note": ""
+  },
+  {
+   "cell": "B31",
+   "label": "Astrocyte input resistance (\u03a9)",
+   "value": 500000000.0,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": "Average of Clark & Mobbs, 1994, Bordey & Sontheimer, 1997"
+  },
+  {
+   "cell": "B32",
+   "label": "Astrocyte resting potential (V)",
+   "value": -0.08,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": ""
+  },
+  {
+   "cell": "B33",
+   "label": "Number of boutons/neuron",
+   "value": 8000.0,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  },
+  {
+   "cell": "B34",
+   "label": "Vesicle release probability",
+   "value": 0.25,
+   "reference": "Attwell & Laughlin, 2001",
+   "note": "Average of Silver et al. 1998, Markram et al., 1997, Hardingham & Larkman, 1998"
+  },
+  {
+   "cell": "B35",
+   "label": "Number of astrocytes/neuron",
+   "value": 1.0,
+   "reference": "Haug, 1987",
+   "note": ""
+  },
+  {
+   "cell": "B36",
+   "label": "Neuron density (neurons/m3)",
+   "value": 92000000000000.0,
+   "reference": "Braitenberg & Sch\u00fcz, 1998",
+   "note": ""
+  }
+ ],
+ "formulas": [
+  {
+   "cell": "F5",
+   "formula": "B2",
+   "cached_value": 4000.0
+  },
+  {
+   "cell": "G5",
+   "formula": "F5*B5",
+   "cached_value": 5333.333320000001
+  },
+  {
+   "cell": "H5",
+   "formula": "F5*B6",
+   "cached_value": 4000.0
+  },
+  {
+   "cell": "I5",
+   "formula": "F5*B7",
+   "cached_value": 1332.0
+  },
+  {
+   "cell": "K5",
+   "formula": "I5+H5+G5",
+   "cached_value": 10665.333320000002
+  },
+  {
+   "cell": "L5",
+   "formula": "+I5/K5*100.0",
+   "cached_value": 12.489061148254857
+  },
+  {
+   "cell": "N5",
+   "formula": "K5*B33*B34",
+   "cached_value": 21330666.640000004
+  },
+  {
+   "cell": "O5",
+   "formula": "N5*B9",
+   "cached_value": 85322666.56000002
+  },
+  {
+   "cell": "Q5",
+   "formula": "O5",
+   "cached_value": 85322666.56000002
+  },
+  {
+   "cell": "S5",
+   "formula": "Q5",
+   "cached_value": 85322666.56000002
+  },
+  {
+   "cell": "H11",
+   "formula": "B8",
+   "cached_value": 200000.0
+  },
+  {
+   "cell": "I11",
+   "formula": "B9",
+   "cached_value": 4.0
+  },
+  {
+   "cell": "M11",
+   "formula": "H11/3.0",
+   "cached_value": 66666.66666666667
+  },
+  {
+   "cell": "N11",
+   "formula": "M11*B33*B34",
+   "cached_value": 133333333.33333334
+  },
+  {
+   "cell": "O11",
+   "formula": "N11*I11",
+   "cached_value": 533333333.3333334
+  },
+  {
+   "cell": "Q11",
+   "formula": "O11",
+   "cached_value": 533333333.3333334
+  },
+  {
+   "cell": "S11",
+   "formula": "Q11",
+   "cached_value": 533333333.3333334
+  },
+  {
+   "cell": "G14",
+   "formula": "B10",
+   "cached_value": 1.0
+  },
+  {
+   "cell": "H14",
+   "formula": "H11*G14*(1.0-F14)",
+   "cached_value": 180000.0
+  },
+  {
+   "cell": "I14",
+   "formula": "+H11*G14*F14/2.0",
+   "cached_value": 10000.0
+  },
+  {
+   "cell": "J14",
+   "formula": "3.0*I14",
+   "cached_value": 30000.0
+  },
+  {
+   "cell": "K14",
+   "formula": "J14+H14",
+   "cached_value": 210000.0
+  },
+  {
+   "cell": "M14",
+   "formula": "K14/3.0",
+   "cached_value": 70000.0
+  },
+  {
+   "cell": "N14",
+   "formula": "M14*B33*B34",
+   "cached_value": 140000000.0
+  },
+  {
+   "cell": "O14",
+   "formula": "N14*I11",
+   "cached_value": 560000000.0
+  },
+  {
+   "cell": "Q14",
+   "formula": "O14",
+   "cached_value": 560000000.0
+  },
+  {
+   "cell": "S14",
+   "formula": "+Q14",
+   "cached_value": 560000000.0
+  },
+  {
+   "cell": "B18",
+   "formula": "1e-06/0.0001",
+   "cached_value": 0.009999999999999998
+  },
+  {
+   "cell": "M18",
+   "formula": "B11",
+   "cached_value": 3000.0
+  },
+  {
+   "cell": "N18",
+   "formula": "M18*B33*B34",
+   "cached_value": 6000000.0
+  },
+  {
+   "cell": "O18",
+   "formula": "N18*I11",
+   "cached_value": 24000000.0
+  },
+  {
+   "cell": "Q18",
+   "formula": "O18",
+   "cached_value": 24000000.0
+  },
+  {
+   "cell": "S18",
+   "formula": "Q18",
+   "cached_value": 24000000.0
+  },
+  {
+   "cell": "S19",
+   "formula": "S18+S14+S11",
+   "cached_value": 1117333333.3333335
+  },
+  {
+   "cell": "B22",
+   "formula": "3.0*B17",
+   "cached_value": 9e-07
+  },
+  {
+   "cell": "B23",
+   "formula": "B16/9.0",
+   "cached_value": 0.0044444444444444444
+  },
+  {
+   "cell": "F24",
+   "formula": "B12",
+   "cached_value": 12000.0
+  },
+  {
+   "cell": "G24",
+   "formula": "F24*3.0",
+   "cached_value": 36000.0
+  },
+  {
+   "cell": "I24",
+   "formula": "B13",
+   "cached_value": 10.5
+  },
+  {
+   "cell": "J24",
+   "formula": "B14",
+   "cached_value": 400.0
+  },
+  {
+   "cell": "K24",
+   "formula": "(G24/3.0+2.0*I24+2.0*J24)*F27",
+   "cached_value": 102568000.0
+  },
+  {
+   "cell": "Q24",
+   "formula": "K24",
+   "cached_value": 102568000.0
+  },
+  {
+   "cell": "S24",
+   "formula": "Q24",
+   "cached_value": 102568000.0
+  },
+  {
+   "cell": "F27",
+   "formula": "B34*B33*B9",
+   "cached_value": 8000.0
+  },
+  {
+   "cell": "R27",
+   "formula": "+S24+S19+S5",
+   "cached_value": 1305223999.8933334
+  },
+  {
+   "cell": "S31",
+   "formula": "Q31",
+   "cached_value": "ATP/s"
+  },
+  {
+   "cell": "F32",
+   "formula": "B16",
+   "cached_value": 0.04
+  },
+  {
+   "cell": "G32",
+   "formula": "B15",
+   "cached_value": 0.1
+  },
+  {
+   "cell": "H32",
+   "formula": "B17",
+   "cached_value": 3e-07
+  },
+  {
+   "cell": "I32",
+   "formula": "B18",
+   "cached_value": 0.009999999999999998
+  },
+  {
+   "cell": "J32",
+   "formula": "PI()*F32*H32*I32",
+   "cached_value": 3.7699111843077513e-10
+  },
+  {
+   "cell": "K32",
+   "formula": "G32*J32",
+   "cached_value": 3.769911184307752e-11
+  },
+  {
+   "cell": "L32",
+   "formula": "K32/B20",
+   "cached_value": 235619449.0192345
+  },
+  {
+   "cell": "M32",
+   "formula": "L32*B19",
+   "cached_value": 292168116.7838508
+  },
+  {
+   "cell": "N32",
+   "formula": "M32/3.0",
+   "cached_value": 97389372.26128359
+  },
+  {
+   "cell": "O32",
+   "formula": "N32*B9",
+   "cached_value": 389557489.04513437
+  },
+  {
+   "cell": "Q32",
+   "formula": "O32",
+   "cached_value": 389557489.04513437
+  },
+  {
+   "cell": "S32",
+   "formula": "Q35",
+   "cached_value": 474773189.77375746
+  },
+  {
+   "cell": "G33",
+   "formula": "B15",
+   "cached_value": 0.1
+  },
+  {
+   "cell": "H33",
+   "formula": "B21",
+   "cached_value": 2.5e-05
+  },
+  {
+   "cell": "I33",
+   "formula": "B18",
+   "cached_value": 0.009999999999999998
+  },
+  {
+   "cell": "J33",
+   "formula": "PI()*H33*H33*I33",
+   "cached_value": 1.9634954084936205e-11
+  },
+  {
+   "cell": "K33",
+   "formula": "G33*J33",
+   "cached_value": 1.9634954084936206e-12
+  },
+  {
+   "cell": "L33",
+   "formula": "K33/B20",
+   "cached_value": 12271846.30308513
+  },
+  {
+   "cell": "M33",
+   "formula": "L33*B19",
+   "cached_value": 15217089.41582556
+  },
+  {
+   "cell": "N33",
+   "formula": "M33/3.0",
+   "cached_value": 5072363.13860852
+  },
+  {
+   "cell": "O33",
+   "formula": "N33*B9",
+   "cached_value": 20289452.55443408
+  },
+  {
+   "cell": "Q33",
+   "formula": "O33",
+   "cached_value": 20289452.55443408
+  },
+  {
+   "cell": "F34",
+   "formula": "B23",
+   "cached_value": 0.0044444444444444444
+  },
+  {
+   "cell": "G34",
+   "formula": "B24",
+   "cached_value": 0.05
+  },
+  {
+   "cell": "H34",
+   "formula": "B22",
+   "cached_value": 9e-07
+  },
+  {
+   "cell": "I34",
+   "formula": "B18",
+   "cached_value": 0.009999999999999998
+  },
+  {
+   "cell": "J34",
+   "formula": "PI()*F34*H34*I34",
+   "cached_value": 1.2566370614359172e-10
+  },
+  {
+   "cell": "K34",
+   "formula": "G34*J34",
+   "cached_value": 6.283185307179586e-12
+  },
+  {
+   "cell": "L34",
+   "formula": "K34/B20",
+   "cached_value": 39269908.16987242
+  },
+  {
+   "cell": "M34",
+   "formula": "L34*B19",
+   "cached_value": 48694686.130641796
+  },
+  {
+   "cell": "N34",
+   "formula": "M34/3.0",
+   "cached_value": 16231562.043547265
+  },
+  {
+   "cell": "O34",
+   "formula": "N34*B9",
+   "cached_value": 64926248.17418906
+  },
+  {
+   "cell": "Q34",
+   "formula": "O34",
+   "cached_value": 64926248.17418906
+  },
+  {
+   "cell": "L35",
+   "formula": "SUM(L32:L34)",
+   "cached_value": 287161203.49219203
+  },
+  {
+   "cell": "M35",
+   "formula": "SUM(M32:M34)",
+   "cached_value": 356079892.33031815
+  },
+  {
+   "cell": "N35",
+   "formula": "SUM(N32:N34)",
+   "cached_value": 118693297.44343936
+  },
+  {
+   "cell": "Q35",
+   "formula": "SUM(Q32:Q34)",
+   "cached_value": 474773189.77375746
+  },
+  {
+   "cell": "E41",
+   "formula": "B25",
+   "cached_value": 200000000.0
+  },
+  {
+   "cell": "F41",
+   "formula": "B26",
+   "cached_value": -0.07
+  },
+  {
+   "cell": "G41",
+   "formula": "B27",
+   "cached_value": -0.1
+  },
+  {
+   "cell": "H41",
+   "formula": "B28",
+   "cached_value": 0.05
+  },
+  {
+   "cell": "I41",
+   "formula": "(H41-F41)*(F41-G41)",
+   "cached_value": 0.0036000000000000003
+  },
+  {
+   "cell": "J41",
+   "formula": "(F41+2.0*H41-3.0*G41)*E41*B29",
+   "cached_value": 6368670000000.001
+  },
+  {
+   "cell": "K41",
+   "formula": "I41/J41",
+   "cached_value": 5.652671593912073e-16
+  },
+  {
+   "cell": "Q41",
+   "formula": "K41*B30",
+   "cached_value": 340403883.38538504
+  },
+  {
+   "cell": "E46",
+   "formula": "B31",
+   "cached_value": 500000000.0
+  },
+  {
+   "cell": "F46",
+   "formula": "B32",
+   "cached_value": -0.08
+  },
+  {
+   "cell": "G46",
+   "formula": "B27",
+   "cached_value": -0.1
+  },
+  {
+   "cell": "H46",
+   "formula": "B28",
+   "cached_value": 0.05
+  },
+  {
+   "cell": "I46",
+   "formula": "(H46-F46)*(F46-G46)",
+   "cached_value": 0.0026000000000000007
+  },
+  {
+   "cell": "J46",
+   "formula": "(F46+2.0*H46-3.0*G46)*E46*B29",
+   "cached_value": 15439200000000.002
+  },
+  {
+   "cell": "K46",
+   "formula": "I46/J46",
+   "cached_value": 1.6840250790196385e-16
+  },
+  {
+   "cell": "M46",
+   "formula": "K46*1.0",
+   "cached_value": 1.6840250790196385e-16
+  },
+  {
+   "cell": "Q46",
+   "formula": "M46*B30",
+   "cached_value": 101411990.25856264
+  },
+  {
+   "cell": "S48",
+   "formula": "Q41+Q46",
+   "cached_value": 441815873.64394766
+  },
+  {
+   "cell": "S52",
+   "formula": "S48+S32+S24+S18+S14+S11+S5",
+   "cached_value": 2221813063.3110385
+  },
+  {
+   "cell": "S57",
+   "formula": "S52*B36",
+   "cached_value": 2.0440680182461555e+23
+  },
+  {
+   "cell": "S58",
+   "formula": "S57/1000000.0*60.0/6.02e+23",
+   "cached_value": 2.037277094597497e-05
+  },
+  {
+   "cell": "G60",
+   "formula": "S57/3.0",
+   "cached_value": 6.8135600608205185e+22
+  },
+  {
+   "cell": "S60",
+   "formula": "S57+G60",
+   "cached_value": 2.7254240243282074e+23
+  },
+  {
+   "cell": "G61",
+   "formula": "G60/1000000.0*60.0/6.02e+23",
+   "cached_value": 6.790923648658324e-06
+  },
+  {
+   "cell": "S61",
+   "formula": "S60/1000000.0*60.0/6.02e+23",
+   "cached_value": 2.7163694594633296e-05
+  }
+ ],
+ "calculation_area_constants": [
+  {
+   "cell": "F14",
+   "value": 0.1
+  }
+ ],
+ "labels": [
+  {
+   "cell": "E1",
+   "text": "CEREBRAL CORTEX"
+  },
+  {
+   "cell": "L1",
+   "text": "CEREBRAL CORTEX"
+  },
+  {
+   "cell": "E3",
+   "text": "GLUTAMATE RECYCLING"
+  },
+  {
+   "cell": "F4",
+   "text": "No. glu mol/vesicle"
+  },
+  {
+   "cell": "G4",
+   "text": "Glu uptake (ATP)"
+  },
+  {
+   "cell": "H4",
+   "text": "Metabolic processing (ATP)"
+  },
+  {
+   "cell": "I4",
+   "text": "Package into vesicles (ATP)"
+  },
+  {
+   "cell": "K4",
+   "text": "Total ATP"
+  },
+  {
+   "cell": "L4",
+   "text": "% presynaptic"
+  },
+  {
+   "cell": "N4",
+   "text": "x ves release"
+  },
+  {
+   "cell": "O4",
+   "text": "x AP freq"
+  },
+  {
+   "cell": "Q4",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R5",
+   "text": "Glutamate recycling"
+  },
+  {
+   "cell": "R6",
+   "text": "ATP/neuron/s"
+  },
+  {
+   "cell": "E8",
+   "text": "POSTSYNAPTIC ACTIONS OF GLUTAMATE"
+  },
+  {
+   "cell": "F10",
+   "text": "NON-nmda"
+  },
+  {
+   "cell": "H10",
+   "text": "Na entry"
+  },
+  {
+   "cell": "I10",
+   "text": "Firing rate"
+  },
+  {
+   "cell": "M10",
+   "text": "ATP/vesicle"
+  },
+  {
+   "cell": "N10",
+   "text": "x ves release"
+  },
+  {
+   "cell": "O10",
+   "text": "x AP freq"
+  },
+  {
+   "cell": "Q10",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R11",
+   "text": "Non-NMDA"
+  },
+  {
+   "cell": "F12",
+   "text": "NMDA"
+  },
+  {
+   "cell": "F13",
+   "text": "fraction Q that is Ca2+"
+  },
+  {
+   "cell": "G13",
+   "text": "Qnmda/Qampa"
+  },
+  {
+   "cell": "H13",
+   "text": "Na entry"
+  },
+  {
+   "cell": "I13",
+   "text": "Ca entry"
+  },
+  {
+   "cell": "J13",
+   "text": "Na entry to extrude Ca"
+  },
+  {
+   "cell": "K13",
+   "text": "total Na"
+  },
+  {
+   "cell": "M13",
+   "text": "ATP/vesicle"
+  },
+  {
+   "cell": "N13",
+   "text": "x ves release"
+  },
+  {
+   "cell": "O13",
+   "text": "x AP freq"
+  },
+  {
+   "cell": "Q13",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R14",
+   "text": "NMDA"
+  },
+  {
+   "cell": "F16",
+   "text": "mGluR at parallel fibre"
+  },
+  {
+   "cell": "M17",
+   "text": "ATP/vesicle"
+  },
+  {
+   "cell": "N17",
+   "text": "x ves release"
+  },
+  {
+   "cell": "O17",
+   "text": "x AP freq"
+  },
+  {
+   "cell": "R18",
+   "text": "mGluR"
+  },
+  {
+   "cell": "R19",
+   "text": "Total postsynaptic"
+  },
+  {
+   "cell": "R20",
+   "text": "ATP/neuron/s"
+  },
+  {
+   "cell": "E22",
+   "text": "PRESYN ACTIONS"
+  },
+  {
+   "cell": "F22",
+   "text": "Ca and vesicular release"
+  },
+  {
+   "cell": "F23",
+   "text": "Ca2+ influx"
+  },
+  {
+   "cell": "G23",
+   "text": "Na to extrude Ca2+"
+  },
+  {
+   "cell": "I23",
+   "text": "ATP for mem fusion/ves"
+  },
+  {
+   "cell": "J23",
+   "text": "ATP to control exoc/vesic"
+  },
+  {
+   "cell": "K23",
+   "text": "ATP/cell/sec"
+  },
+  {
+   "cell": "Q23",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R24",
+   "text": "Presyn"
+  },
+  {
+   "cell": "F26",
+   "text": "Vesicles released/second"
+  },
+  {
+   "cell": "R26",
+   "text": "Total synaptic"
+  },
+  {
+   "cell": "R28",
+   "text": "ATP/neuron/s"
+  },
+  {
+   "cell": "E30",
+   "text": "ACTION POTENTIALS"
+  },
+  {
+   "cell": "E31",
+   "text": "Part of neuron"
+  },
+  {
+   "cell": "F31",
+   "text": "propagation length (m)"
+  },
+  {
+   "cell": "G31",
+   "text": "voltage change (V)"
+  },
+  {
+   "cell": "H31",
+   "text": "Diameter (m)"
+  },
+  {
+   "cell": "I31",
+   "text": "Capacitance (F/m2)"
+  },
+  {
+   "cell": "J31",
+   "text": "Capacitance (F)"
+  },
+  {
+   "cell": "K31",
+   "text": "charge influx (C)"
+  },
+  {
+   "cell": "L31",
+   "text": "Na ion entry"
+  },
+  {
+   "cell": "M31",
+   "text": "Na*overlap factor"
+  },
+  {
+   "cell": "N31",
+   "text": "ATP"
+  },
+  {
+   "cell": "O31",
+   "text": "x AP freq"
+  },
+  {
+   "cell": "P31",
+   "text": "Part of neuron"
+  },
+  {
+   "cell": "Q31",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R31",
+   "text": "Total action potentials"
+  },
+  {
+   "cell": "S31",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "E32",
+   "text": "Axon"
+  },
+  {
+   "cell": "P32",
+   "text": "Axon"
+  },
+  {
+   "cell": "R32",
+   "text": "ATP/neuron/s"
+  },
+  {
+   "cell": "E33",
+   "text": "Soma"
+  },
+  {
+   "cell": "P33",
+   "text": "Soma"
+  },
+  {
+   "cell": "E34",
+   "text": "Dendrite"
+  },
+  {
+   "cell": "P34",
+   "text": "Dendrite"
+  },
+  {
+   "cell": "K35",
+   "text": "Total"
+  },
+  {
+   "cell": "E37",
+   "text": "RESTING POTENTIAL"
+  },
+  {
+   "cell": "E38",
+   "text": "NEURONS"
+  },
+  {
+   "cell": "I39",
+   "text": "(equation 4 of Attwell & Laughlin, 2001)"
+  },
+  {
+   "cell": "E40",
+   "text": "Input resistance (\u03a9)"
+  },
+  {
+   "cell": "F40",
+   "text": "resting potential (V)"
+  },
+  {
+   "cell": "G40",
+   "text": "Vk (V)"
+  },
+  {
+   "cell": "H40",
+   "text": "Vna (V)"
+  },
+  {
+   "cell": "I40",
+   "text": "numerator"
+  },
+  {
+   "cell": "J40",
+   "text": "denominator"
+  },
+  {
+   "cell": "K40",
+   "text": "ATP on RP, moles/s"
+  },
+  {
+   "cell": "Q40",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "E43",
+   "text": "GLIA"
+  },
+  {
+   "cell": "I44",
+   "text": "(equation 4 -Attwell & Laughlin, 2001)"
+  },
+  {
+   "cell": "E45",
+   "text": "Input resistance (\u03a9)"
+  },
+  {
+   "cell": "F45",
+   "text": "resting potential (V)"
+  },
+  {
+   "cell": "G45",
+   "text": "Vk (V)"
+  },
+  {
+   "cell": "H45",
+   "text": "Vna (V)"
+  },
+  {
+   "cell": "I45",
+   "text": "numerator"
+  },
+  {
+   "cell": "J45",
+   "text": "denominator"
+  },
+  {
+   "cell": "K45",
+   "text": "moles/s"
+  },
+  {
+   "cell": "M45",
+   "text": "scale to neurons"
+  },
+  {
+   "cell": "Q45",
+   "text": "ATP/s"
+  },
+  {
+   "cell": "R48",
+   "text": "Total resting potentials"
+  },
+  {
+   "cell": "E51",
+   "text": "TOTAL"
+  },
+  {
+   "cell": "Q52",
+   "text": "Signalling + RP only"
+  },
+  {
+   "cell": "R52",
+   "text": "Total (ATP/neuron/s)"
+  },
+  {
+   "cell": "R57",
+   "text": "ATP/s/m3"
+  },
+  {
+   "cell": "R58",
+   "text": "ATP moles/g/min"
+  },
+  {
+   "cell": "E59",
+   "text": "HOUSEKEEPING"
+  },
+  {
+   "cell": "E60",
+   "text": "Assume 1/3 of signalling energy"
+  },
+  {
+   "cell": "H60",
+   "text": "ATP/s/m3"
+  },
+  {
+   "cell": "Q60",
+   "text": "Including"
+  },
+  {
+   "cell": "R60",
+   "text": "ATP/s/m3"
+  },
+  {
+   "cell": "H61",
+   "text": "ATP moles/g/min"
+  },
+  {
+   "cell": "Q61",
+   "text": "housekeeping"
+  },
+  {
+   "cell": "R61",
+   "text": "ATP moles/g/min"
+  }
+ ]
+}

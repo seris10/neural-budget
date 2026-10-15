@@ -1,0 +1,20 @@
+{
+  "description": "Low and high values for one-at-a-time and factorial scenarios. A range marked 'sourced' is quoted in a cited paper; 'author-selected' ranges are chosen for this analysis (x0.5 to x2 or +-50% unless stated) and are scenario values, not uncertainty intervals.",
+  "ranges": {
+    "firing_rate": {"low": 3.8, "high": 7.8, "basis": "sourced", "source": "Barrel cortex mean rates during sleep (3.8 Hz) and active running (7.8 Hz): Vijayan et al. 2010, doi:10.1152/jn.00474.2009, as cited by Howarth et al. 2012"},
+    "na_overlap_factor": {"low": 1.24, "high": 4.0, "basis": "sourced", "source": "1.24 measured in cortical pyramidal neurons (Carter and Bean 2009, doi:10.1016/j.neuron.2009.12.011); 4 from squid axon (Hodgkin 1975, doi:10.1098/rstb.1975.0010), used by Attwell and Laughlin 2001"},
+    "release_probability": {"low": 0.125, "high": 0.5, "basis": "author-selected", "source": "x0.5 to x2 of the reference 0.25"},
+    "ampar_na_per_vesicle": {"low": 100000.0, "high": 300000.0, "basis": "author-selected", "source": "+-50% of the reference"},
+    "nmda_to_ampa_charge_ratio": {"low": 0.5, "high": 1.5, "basis": "author-selected", "source": "+-50% of the reference"},
+    "glutamate_per_vesicle": {"low": 2000.0, "high": 8000.0, "basis": "author-selected", "source": "x0.5 to x2 of the reference"},
+    "boutons_per_neuron": {"low": 6000.0, "high": 10000.0, "basis": "author-selected", "source": "+-25% of the reference"},
+    "mglur_atp_per_vesicle": {"low": 1500.0, "high": 4500.0, "basis": "author-selected", "source": "+-50% of the reference"},
+    "presynaptic_ca_per_vesicle": {"low": 6000.0, "high": 18000.0, "basis": "author-selected", "source": "+-50% of the reference"},
+    "presynaptic_vesicle_cost_multiplier": {"low": 1.0, "high": 2.0, "basis": "author-selected", "source": "counted once (1) versus the spreadsheet's twice (2)"},
+    "axon_length": {"low": 0.02, "high": 0.06, "basis": "author-selected", "source": "+-50% of the reference"},
+    "neuron_input_resistance": {"low": 100000000.0, "high": 400000000.0, "basis": "author-selected", "source": "x0.5 to x2 of the reference"},
+    "astrocyte_input_resistance": {"low": 250000000.0, "high": 1000000000.0, "basis": "author-selected", "source": "x0.5 to x2 of the reference"},
+    "neuron_resting_potential": {"low": -0.08, "high": -0.06, "basis": "author-selected", "source": "+-10 mV around the reference"}
+  },
+  "factorial": ["firing_rate", "na_overlap_factor", "release_probability"]
+}

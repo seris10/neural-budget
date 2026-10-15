@@ -1,0 +1,10 @@
+[scenario]
+name = "housekeeping 50% of total energy"
+description = "Upper end of the housekeeping range Howarth et al. 2012 quote for whole brain; specified as a fraction of total energy, not of signaling energy"
+source = "Howarth et al. 2012, doi:10.1038/jcbfm.2012.35, Discussion (citing Kety 1957, Sokoloff 1960 and others)"
+
+[options]
+housekeeping_basis = "total"
+housekeeping_fraction = 0.5
+
+[changes]

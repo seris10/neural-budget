@@ -1,0 +1,7 @@
+[scenario]
+name = "overlap factor 4 (Attwell and Laughlin 2001)"
+description = "Na+ entry per action potential four times the capacitive minimum, as in squid axon"
+source = "Hodgkin 1975, doi:10.1098/rstb.1975.0010; used by Attwell and Laughlin 2001, doi:10.1097/00004647-200110000-00001"
+
+[changes]
+na_overlap_factor = 4.0
